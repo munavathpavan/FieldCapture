@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Uploaded test images
+backend/uploads/
+
+# Android Studio
+.idea/
+.gradle/
+**/build/
+local.properties
