@@ -1,0 +1,61 @@
+
+[
+  {
+    "job_id": "JOB-001",
+    "capture_type": "nameplate",
+    "captured_at": "2026-11-25T10:00:00",
+    "frame_id": "sample-frame-001",
+    "nameplate": {
+      "make": {
+        "value": "LG",
+        "confidence": 0.99
+      },
+      "model": {
+        "value": "GR-B4T2Q",
+        "confidence": 0.63
+      },
+      "serial_number": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "manufacture_date": {
+        "value": null,
+        "confidence": 0.0
+      }
+    }
+  },
+  {
+    "job_id": "JOB-002",
+    "capture_type": "damage",
+    "captured_at": "2026-11-25T10:15:00",
+    "frame_id": "sample-frame-002",
+    "damage": {
+      "room": {
+        "value": "Kitchen",
+        "confidence": 0.95
+      },
+      "surface": {
+        "value": "Ceiling",
+        "confidence": 0.92
+      },
+      "damage_type": {
+        "value": "Water stain",
+        "confidence": 0.90
+      },
+      "rough_size": {
+        "value": "2 square metres",
+        "confidence": 0.75
+      }
+    }
+  },
+  {
+    "job_id": "JOB-003",
+    "capture_type": "note",
+    "captured_at": "2026-11-25T10:30:00",
+    "frame_id": null,
+    "note": {
+      "value": "Technician observed moisture near the kitchen ceiling.",
+      "confidence": 1.0
+    }
+  }
+]

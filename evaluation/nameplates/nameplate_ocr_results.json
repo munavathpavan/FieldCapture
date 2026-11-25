@@ -1,0 +1,391 @@
+[
+    {
+        "filename": "Screenshot 2026-11-25 085215.png",
+        "frame_id": "ea710917-f185-4e88-a5c1-adf2efa62983",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 2220.93,
+            "brightness": 187.88,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 0.0,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": "GR-B4T2Q",
+                "confidence": 0.6323
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "LG RFFRIGERATOR-FREEZER MODEL GR-B4T2Q CLASS Tropical AATING I27V ~ 60Hz AATED CUaRENT 244 DEFROSTING INPUT 205w AATED InNPUT OF HFATER CORD I50w RATFD MAX INPUT OF LAMP aefaIGERATOR 20w FREEZER REFRIGERANT I5W IMSULATION BLOWING GAS R13ta 1509 DMMENSIONS 6E0(W = 70810) Cycosentane SERLAL Na 1725 (H) mm Refer to bar code Iabel. KOAEA No:: VADz Jus_Nt1F"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092429.png",
+        "frame_id": "cf3f33a1-dd14-4b19-bbce-5a3c0233e6ac",
+        "quality_passed": false,
+        "quality": {
+            "blur_score": 3933.64,
+            "brightness": 172.97,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 55.95,
+            "is_badly_framed": true,
+            "quality_passed": false,
+            "warnings": [
+                "Possible framing issue near image border. Please check the subject position."
+            ]
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": "MMODELE",
+                "confidence": 0.4919
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "HOUSEHOLD REFKIGERATOR/ LG REFRIGERATEUR MGAAGERE MODELMMODELE :LFXS32766S /Q0 PrODUCT Code codE De Paodui Ga-JJJehSJM ASICNAO RATING ICAPACiTE NOMINALE TI5V 60Hz  3.54 REFRIGERANTIREFRIGERANT R13da 5.010z DzfrostiNG NfuT PUIssANCE Assoreee En degivraGE 520w PokE? INPu CF DEFROsT #E41er Plissance Absorbee 0: LA ResistANce de oegivraGE FRES4FOOLALIVENTS FRAIS FREEZER CONGELATEUR 2698| PRODUCTION DATE CATE DE FroljciICV 2014.10 DINENS CNS 3Ym 37 1/8401 > 70 V/W) inch SerN\" NO.De SeRIe MADE Wn Konfa FaGa uee\" CoreE 41OKRREUR36b 31 801-24100c0 (UsAI ( NMM 3 1 88LG CANADA ICANADA) VrtdE ForLG CuSTohER SERVICE I7 http iwww Ig com Ta335258216"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092436.png",
+        "frame_id": "bec84742-3a13-4afd-b61d-3f875a6dd687",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 1233.58,
+            "brightness": 184.88,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 16.85,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": "CU-KC9QKH-8",
+                "confidence": 0.901
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "Panasonic AIR ConDITIONER OUTDOOR UNIT Model No. CU-KC9QKH-8 PHASE VOLTAGE 220 V~ FREQUENCY 50 Hz MAX INPut 03KWI4 SA COOLING 2.65kW CAPACITY 9540kJhn CurrEnt 3.8A POWER INPUT 830w EER 3.19 (USQ 51501 REFRIGERANT R22 780g MWP H.P 2.7 MPa LP 1.6 MPa SEAL TEST PASSED"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092440.png",
+        "frame_id": "b718a949-40fc-4cd9-b59a-588ef2aa31e8",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 2213.04,
+            "brightness": 195.25,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 0.0,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": "Product",
+                "confidence": 0.9484
+            },
+            "serial_number": {
+                "value": "2030312010",
+                "confidence": 0.9934
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "MADE IN ROMANIA beko WUESS11XWW (62 Model: Product Code: 7000040046 Serial No: 2030312010 230 V~ 921370CN 6 kg 1550W 50 Az 0.7-4MPa In 10 A + 76 A IILIPX:"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092449.png",
+        "frame_id": "997e0ef5-8cdb-464c-b05f-73534f5b3573",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 1808.88,
+            "brightness": 178.03,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 16.09,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": "HRFZSGNGCSE",
+                "confidence": 0.3796
+            },
+            "serial_number": {
+                "value": "C2020080700024",
+                "confidence": 0.8482
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "Model   HRFZSGNGCSE Refrigerator Hisense Customer Serial Serial no: C2020080700024 Number SPECIFICATIONS DESIGM PRESSURE 0a HiGH SIDE 250 PSIG LoW SIDE 88 PSIG 1 Dat REFRIGERANT Reg Oa Ideunw %r AounT 2.1902629 2189 RATED VOLTAGE Acii5v 1 RATED FREQUENCY 60Hz Energy Verffied Rendement RATED CURRENT 28A 5 Energetique Verifia DEFROST POWER Z20x NET WEIGHT 273.4Ib5} POWER INPUT Of sW-IW THE LANP WNSULATION CyclofeniNe BLOWING GAS MADEIN ChinA HECHOENCHINA 764070 Batch NO BD8YX 4154864 Factory Serial 1B0740ZO034JBD8YXS30024 Number"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092454.png",
+        "frame_id": "28bcf395-ddf9-4707-9487-38544fab1fb5",
+        "quality_passed": false,
+        "quality": {
+            "blur_score": 1041.84,
+            "brightness": 154.52,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 50.24,
+            "is_badly_framed": true,
+            "quality_passed": false,
+            "warnings": [
+                "Possible framing issue near image border. Please check the subject position."
+            ]
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "MITACHI REFRICERAHT R4ioa 95044 VOLIAGE PHASE 240 Roou Air comditioner FREQUELCY so42 HeAI PluP Ovidoor Umii PRESSURE [eST : Migh 3 45up = WODEL RaC-25yhas Lor 9oupa UM CURRENT SERIAL 013588 POnER 1700 TEST PRES SURE VM I5uP4 VadE CHIE Huc RATOA OUTSIDE SOUND dBA POWER LEVEL 64 J@OWER LEVELS MENN LOWER OUTSIDE NOISE) MLeEVEL ShoVN ABOME MAY BE USED To ESTMATE WETHER ThE QutSDE KOISE FROM THE PROROSED NGTALATON GF THS UNt MaL BE WHN ACCEPTARLE LNITS ConSul[_Your Supplier BEFORE INSTALLATION (UF ACTURL R) TMOOEL NO ) ItremCote HtochN Cordorng Wtyca LU RAC SYNAS"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092459.png",
+        "frame_id": "409b567d-36f1-43bd-96a8-48c6673c0bb6",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 1921.62,
+            "brightness": 175.31,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 0.0,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": "WT548OCW",
+                "confidence": 0.6482
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "MODEL:WT548OCW SINO:5O1PNTFOY721 013575010Y7214040297PN 51170305"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092513.png",
+        "frame_id": "d8c70226-4d9b-4601-b913-40390c37ddca",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 2604.93,
+            "brightness": 146.75,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 7.9,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": "Samsung",
+                "confidence": 0.9969
+            },
+            "model": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "SIN : QVVSAGBWAQ1043F SAMSUNG MOAEnB RBSOAZONOWW 7150 0 eh7o  )ancatena OOO \"TEXNCPARK' Abiovamliecan cuctema pajuopogr\" Eclronod tonoounthat Mtornbht Tortarnl Djukochaf AatovatwuHa CictEMa D0xicoOxyedhtA, [kbricawd KonLArtedr Ucootanerhu Onbatn 3n6e 461 KiMatryeckhi nac SN,N,ST Xnanareht ero Macca R-acOelbt Cnancreht Moro Maca JatuaHMM Wnax MMuonetten Lmecanukts noparehma tokom Wwonmpyiouvi rax Manorehtar UaccJakhcn Wparelila CipyMom Isonnoywm ra} Hou/KenbhbMtO{ Ronccenehorhanor Ert 220-240 V-. B (Hou Hanbhantok Jouhatek& Kendyr Mouhoctb nenoreteparora Nokquatlhancactole 50 Hz,(4} nbonorerepatoga MotyeelcTb Fovuanore DegOns Moukocio 'Jamopaxmeai49 13kglcay 4244 Unacc 3oloieimreckov 3DcrthbhocTM Jamoporybakia notykhcte Knacehedretehho Odehmbhocti TKaa Vo_LOSE 125(Z20v,B) WBr Molatteja [alant Uouhoctepa E octeture zhod nana HoomjuretJa4o 1456220 2MVBLWBI_ LED L0W81 notyercle Honraeeeterua Manchuangm] eoty\" tctt stitolanghl aan parpr/ Velulluu ONa GiI Xallln Mauna Monara duu (lj AnaHte Vator Gran Clentmo & Yzeekctake (ade IN UZpEKISTAN) SAMSUNGE ELECTRORICS EHL n"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092524.png",
+        "frame_id": "040d1fc3-a729-456f-8b43-272a740c5d6f",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 267.93,
+            "brightness": 111.18,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 14.62,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "BSH Household Appliancee Manulacturing Pvt: Ltd_ ccturelran home com NE WAK24268IN/07 FD: 9902 Z-Ne: 01 00328 TYPE: WCNM59 WAK242681N\" 557902027909400328 220 _ '240V 50 HZ 7 2000 W 70 A T200imin IPk- Capacity 7kg 2200 - 2400 W MaDE IN INDIA"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092534.png",
+        "frame_id": "074e9cfa-ec95-494a-8dad-1f6f04d7c1c9",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 2443.11,
+            "brightness": 186.62,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 5.03,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "Panasonic Hodel No : NA-128VKS IP24 220.240 V ~ 50 Hz W Max 2250 W Panasonic Corporalion Serial No::590014 Mada in Inaia 8887549593918 NA= Z5vn5 590014 VIETNAH 02311815091260041"
+    },
+    {
+        "filename": "Screenshot 2026-11-25 092539.png",
+        "frame_id": "bd202de5-2f99-4548-9099-ca2d8abcc68c",
+        "quality_passed": true,
+        "quality": {
+            "blur_score": 723.43,
+            "brightness": 177.46,
+            "is_blurry": false,
+            "is_dark": false,
+            "edge_activity": 1.11,
+            "is_badly_framed": false,
+            "quality_passed": true,
+            "warnings": []
+        },
+        "nameplate": {
+            "make": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "model": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "serial_number": {
+                "value": null,
+                "confidence": 0.0
+            },
+            "manufacture_date": {
+                "value": null,
+                "confidence": 0.0
+            }
+        },
+        "record_saved": true,
+        "raw_text": "502936 UK etelno INturkEy beko auch € 1750 '457100007800 230 V S0HI [Paa 0 !e #Pa n16 BMJWT4941iw @o Made Jazolach"
+    }
+]
