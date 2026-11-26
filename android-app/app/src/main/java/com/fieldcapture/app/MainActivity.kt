@@ -1,6 +1,6 @@
 
 package com.fieldcapture.app
-
+import com.meta.wearable.dat.mockdevice.api.camera.CameraFacing
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -198,7 +198,7 @@ fun FieldCaptureScreen() {
             ).fold(
 
                 onSuccess = { device ->
-
+                    device.services.camera.setCameraFeed(CameraFacing.BACK)
                     device.powerOn()
                     device.unfold()
                     device.don()
@@ -355,6 +355,7 @@ fun FieldCaptureScreen() {
     // ------------------------------------------------
 
     fun startDatSession() {
+        Log.d(TAG, "START DAT SESSION BUTTON CLICKED")
 
         if (!mockGlassesPaired) {
             statusMessage = "Please pair mock glasses first."
