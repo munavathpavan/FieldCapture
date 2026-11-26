@@ -24,5 +24,7 @@ flowchart TD
     A --> P[WorkManager Offline Queue]
     P -->|Connection restored| F
 
-    Q[Meta DAT / Mock Device Kit]
-    Q -. Future Integration .-> A
+    Q[Meta DAT SDK]
+    R[Mock Device Kit]
+    Q --> A
+    R --> Q

@@ -11,3 +11,9 @@ backend/uploads/
 .gradle/
 **/build/
 local.properties
+# Generated inspection data
+backend/inspection_records.json
+evaluation/all_records.json
+
+# Local backup
+META_SDK_RESEARCH_old.md

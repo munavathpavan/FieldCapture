@@ -1,101 +1,114 @@
-# FieldCapture – Evaluation Report
+\# Meta Wearables SDK Research – FieldCapture
 
-## 1. Overview
 
-FieldCapture was evaluated to assess image quality validation, appliance nameplate OCR extraction, damage information extraction, and inspection record storage.
 
-Testing used genuine appliance nameplate images captured during development.
+\## 1. Objective
 
-## 2. Nameplate OCR Evaluation
 
-- Total nameplate images tested: 11
-- Images passing image quality checks: 9
-- Images flagged for framing issues: 2
 
-### Field Detection Results
+The objective is to investigate how Meta wearable glasses can support hands-free property inspections through the FieldCapture Android application.
 
-| Field | Images with detected values |
-|---|---:|
-| Make | 1/11 |
-| Model | 6/11 |
-| Serial number | 2/11 |
-| Manufacture date | 0/11 |
 
-**Note:** These are detection counts, not accuracy percentages. Extracted values require manual comparison against verified nameplate labels before accuracy can be calculated.
 
-## 3. Image Quality Evaluation
+\## 2. SDK and Tools
 
-The quality validation system checks:
 
-- Blur using Laplacian variance.
-- Brightness using average image intensity.
-- Possible framing issues using image-border edge activity.
 
-In the 11-image nameplate test:
-- 9 images passed the quality checks.
-- 2 images were flagged for possible framing issues.
-- No images were flagged as blurry or too dark.
+\- Meta Wearables Device Access Toolkit (DAT)
 
-The thresholds are preliminary and require further calibration using a larger dataset.
+\- Meta Wearables Mock Device Kit
 
-## 4. Observed Extraction Failures
+\- Android Studio
 
-1. LG refrigerator: Manufacturer was not extracted despite LG appearing in the OCR text.
-2. LG refrigerator: Incorrect model value `MMODELE` was extracted instead of `LFXS32766S`.
-3. Beko washing machine: The value `Product` was extracted instead of model `WUESS11XWW`.
-4. Panasonic washing machine: Model `NA-128VKS` and serial number `590014` were present in OCR text but not extracted.
-5. Hitachi air conditioner: Manufacturer and serial number were not extracted correctly despite possible values appearing in OCR text.
+\- Kotlin
 
-### Possible Causes
+\- Android CameraX
 
-- OCR character recognition errors.
-- Inconsistent nameplate layouts.
-- Incorrect association between labels and values.
-- Regex-based extraction limitations.
-- Image orientation and text quality.
 
-## 5. Damage Information Evaluation
 
-The application supports extraction of:
-- Room
-- Surface
-- Damage type
-- Rough size
+\## 3. Integration Approach
 
-Further manually labelled validation is required to calculate field-wise accuracy.
 
-## 6. Inspection Records
 
-The backend supports structured JSON inspection records containing:
-- Job ID
-- Capture type
-- Capture timestamp
-- Frame ID
-- Extracted fields
-- Confidence values
+The Android application uses the Meta DAT SDK to establish a connection with compatible Meta glasses.
 
-Records are stored and retrieved through the FastAPI backend.
 
-## 7. Limitations
 
-- OCR extraction is not fully reliable across different manufacturers.
-- Manufacture date extraction needs improvement.
-- Quality checks use basic image-processing heuristics.
-- Framing detection may produce false positives.
-- Damage extraction needs further ground-truth validation.
-- Actual Meta glasses integration remains future work.
+The Mock Device Kit is used during development to simulate glasses functionality without requiring a physical device.
 
-## 8. Future Improvements
 
-1. Improve OCR preprocessing and field extraction.
-2. Add manufacturer-specific extraction patterns.
-3. Calibrate image quality thresholds.
-4. Improve damage extraction and size estimation.
-5. Validate all extracted fields against manually labelled data.
-6. Integrate and test Meta DAT SDK using the Mock Device Kit.
 
-## 9. Conclusion
+The application initializes the mock device kit, enables it, and attempts to pair the simulated glasses.
 
-The prototype demonstrates an end-to-end workflow for image capture, quality validation, OCR processing, voice-assisted inspection, and structured record storage.
 
-The initial nameplate evaluation identified limitations in field extraction, providing clear areas for improvement. Further ground-truth validation is necessary before reporting extraction accuracy.
+
+\## 4. Application Workflow
+
+
+
+1\. Initialize the Meta Wearables SDK.
+
+2\. Enable the Mock Device Kit.
+
+3\. Pair the simulated Ray-Ban Meta glasses.
+
+4\. Establish the DAT session.
+
+5\. Access supported camera functionality.
+
+6\. Capture inspection images.
+
+7\. Send captured images to the FieldCapture backend.
+
+8\. Process images and store inspection information.
+
+
+
+\## 5. Development and Testing
+
+
+
+The integration was developed using Kotlin in the Android application.
+
+
+
+The project uses the Mock Device Kit for development and testing. Android build and installation were verified during implementation.
+
+
+
+\## 6. Limitations
+
+
+
+\- Mock Device Kit testing does not establish compatibility with every physical glasses model.
+
+\- Physical-device testing is required to validate the complete glasses workflow.
+
+\- Camera streaming and capture behavior may depend on SDK capabilities and device permissions.
+
+\- Network connectivity is required for immediate backend uploads; offline upload handling is implemented separately.
+
+
+
+\## 7. Future Improvements
+
+
+
+\- Test with physical Meta glasses.
+
+\- Validate camera capture and streaming reliability.
+
+\- Improve reconnection and session error handling.
+
+\- Test longer inspection sessions.
+
+\- Improve offline synchronization and upload recovery.
+
+
+
+\## 8. Conclusion
+
+
+
+The project establishes a development-level integration path between the FieldCapture Android application and Meta Wearables DAT using the Mock Device Kit. Physical-device testing remains necessary before claiming complete production readiness.
+

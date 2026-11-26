@@ -1,0 +1,66 @@
+﻿[
+    {
+        "job_id":  "JOB-5F3CEAAE",
+        "capture_type":  "nameplate",
+        "captured_at":  "2026-11-25T09:07:31.570216",
+        "frame_id":  "0161a943-2463-4aad-8d6a-6dfef21b3701",
+        "nameplate":  {
+                          "make":  {
+                                       "value":  "Whirlpool",
+                                       "confidence":  0.8237
+                                   },
+                          "model":  {
+                                        "value":  null,
+                                        "confidence":  0.0
+                                    },
+                          "serial_number":  {
+                                                "value":  null,
+                                                "confidence":  0.0
+                                            },
+                          "manufacture_date":  {
+                                                   "value":  null,
+                                                   "confidence":  0.0
+                                               }
+                      },
+        "damage":  null,
+        "note":  null
+    },
+    {
+        "job_id":  "JOB-1795537076759",
+        "capture_type":  "damage",
+        "captured_at":  "2026-11-24T16:17:56.759229Z",
+        "frame_id":  "2904f88c-1627-4fb5-8e65-ded0db17f70b",
+        "nameplate":  null,
+        "damage":  {
+                       "room":  {
+                                    "value":  null,
+                                    "confidence":  0.0
+                                },
+                       "surface":  {
+                                       "value":  null,
+                                       "confidence":  0.0
+                                   },
+                       "damage_type":  {
+                                           "value":  null,
+                                           "confidence":  0.0
+                                       },
+                       "rough_size":  {
+                                          "value":  null,
+                                          "confidence":  0.0
+                                      }
+                   },
+        "note":  null
+    },
+    {
+        "job_id":  "JOB-003",
+        "capture_type":  "note",
+        "captured_at":  "2026-11-24T16:15:00",
+        "frame_id":  null,
+        "nameplate":  null,
+        "damage":  null,
+        "note":  {
+                     "value":  "Water leakage observed near the kitchen ceiling. Technician recommends checking the pipe connection.",
+                     "confidence":  0.95
+                 }
+    }
+]

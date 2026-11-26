@@ -316,14 +316,19 @@ These are self-defined prototype codes, not official Xactimate codes.
 
 ## 12. Meta Wearables SDK Research
 
-The assignment includes research into Meta Wearables Device Access Toolkit (DAT) and Mock Device Kit.
+The Android application includes integration with Meta Wearables Device Access Toolkit (DAT) and the Mock Device Kit.
 
-The current application is an Android phone-based CameraX prototype. Meta DAT and Mock Device Kit have been researched but are not integrated into the application.
+The Mock Device Kit is used to simulate Ray-Ban Meta glasses during development. The application initializes the kit and attempts to pair the simulated glasses.
 
-The research document covers the SDK, integration considerations, limitations, and proposed hardware changes:
+The application also uses CameraX for phone-camera capture.
+
+The research document covers the SDK, integration approach, limitations, and future improvements:
 
 ```text
 META_SDK_RESEARCH.md
+```
+
+Physical Meta glasses testing is still required to verify complete hardware compatibility and camera functionality.
 ```
 
 ## 13. Current Limitations
@@ -333,14 +338,14 @@ META_SDK_RESEARCH.md
 - Damage-field extraction needs more labelled validation data.
 - Image framing validation currently uses a heuristic rather than an object-detection model.
 - Offline upload recovery should be validated under repeated real network-disconnection scenarios.
-- Meta glasses hardware integration is not implemented in this prototype.
+- Physical Meta glasses compatibility and end-to-end hardware testing are not yet verified.
 - The evaluation dataset needs additional ground-truth labels to calculate reliable accuracy.
 
 ## 14. Future Improvements
 
 Over the next two weeks, the following improvements are planned:
 
-1. Integrate the Meta Wearables DAT SDK and test using Mock Device Kit.
+1. Validate the Meta DAT integration with physical Meta glasses.
 2. Improve nameplate extraction using manufacturer-specific parsing and validation.
 3. Improve damage classification and rough-size estimation.
 4. Expand the evaluation dataset with labelled normal, low-light, damage, and nameplate images.

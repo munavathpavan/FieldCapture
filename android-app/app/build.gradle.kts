@@ -10,6 +10,8 @@ android {
     }
 
     defaultConfig {
+        manifestPlaceholders["mwdat_application_id"] = "0"
+        manifestPlaceholders["mwdat_client_token"] = "0"
         applicationId = "com.fieldcapture.app"
         minSdk = 29
         targetSdk = 37
@@ -37,6 +39,10 @@ android {
 }
 
 dependencies {
+    implementation(libs.mwdat.core)
+    implementation(libs.mwdat.camera)
+    implementation(libs.mwdat.display)
+    implementation(libs.mwdat.mockdevice)
     implementation("androidx.work:work-runtime-ktx:2.10.1")
     implementation("androidx.camera:camera-view:1.4.2")
     implementation("androidx.camera:camera-core:1.4.2")
